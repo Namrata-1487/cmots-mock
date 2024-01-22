@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Outfit:wght@100..900&display=swap");
+
+* {
+  font-family: "Outfit";
+  font-size: 12px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.navbar-brand p {
+  font-size: 12px;
+}
+nav {
+  background-image: linear-gradient(
+    90deg,
+    #065273,
+    #065273,
+    #065273,
+    #306c8c,
+    #306c8c,
+    #306c8c,
+    #306c8c,
+    #4f87a5,
+    #6ca2bf,
+    #8abfda,
+    #8cc5e2,
+    #8dcaea,
+    #8fd0f2,
+    #75bfe9,
+    #59aedf,
+    #59aedf,
+    #3a9dd6,
+    #3a9dd6,
+    #008ccd
+  );
+}
+.collapse {
+  display: flex;
+  align-items: end;
+}
+img {
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+.nav-link {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+button {
+  border-radius: 10px !important;
+}
+.section-1 {
+  background: linear-gradient(135deg, #0c5778, #008ccd, #b2e7ff, #085374);
+}
+.containerBox {
+  position: relative;
+  display: inline-block;
+}
+
+.text-box {
+  position: absolute;
+  height: 30%;
+  text-align: left;
+  width: 60%;
+  margin: auto 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.text-box h1,
+.text-quality {
+  text-shadow: 3px 3px 13px #097aad;
+  font-family: "Baskerville Old Face";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.heading {
+  color: #000;
+  text-align: center;
+  font-family: "Baskerville Old Face";
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.paraheading {
+  color: #575757;
+  text-align: center;
+  font-family: "Outfit";
+  font-size: 18px !important;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+}
+.img-fluid {
+  display: block;
+  float: right;
+}
+.list-group-item {
+  color: #575757;
+  font-family: "Outfit";
+  font-size: 18px !important;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  line-height: normal;
+}
+.list-group-item.active {
+  color: #1970ca !important;
+  background: #fff !important;
+  box-shadow: 3px 9px 23px 0px rgba(0, 0, 0, 0.12);
+}
+.content {
+  background-image: url("./coarousel-bg.png");
+  padding: 40px;
+  color: white;
+}
+.prev-next {
+  font-size: 30px;
+  border: 1px solid blue !important;
+  border-radius: 50%;
+  padding: 0 15px;
+}
+.list-group-item {
+  cursor: pointer;
+}
+.section-4 {
+  font-weight: 500;
+}
+.section-4 ul {
+  background: #efefef;
+  border-radius: 10px;
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin-bottom: 0;
+  padding: 15px 27px 15px 13px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.section-4 ul li {
+  background-color: transparent;
+  border: none;
+}
+.section-5 {
+  background-image: url(./backgroun-wave.png);
+  width: 100%;
+  height: auto;
+  margin: 5rem 0;
+  background-repeat: no-repeat;
+  padding: 7rem 0;
+  width: 100%;
+}
+.card {
+  border-radius: 20px !important;
+  background: #fff;
+}
+.card h4 {
+  color: #0b0b0b;
+  font-family: "Outfit";
+  font-size: 24px !important;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px; /* 141.667% */
+}
+.card p {
+  color: #575757;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px; /* 150% */
+}
+.card-group {
+  width: 70% !important;
+  gap: 60px;
+}
+.indutry-card {
+  background: #eff7ff;
+  border-radius: 60px;
+  display: flex;
+  gap: 10px;
+  margin: 50px auto 0;
+  padding: 60px 80px;
+  width: 80% !important;
+  cursor: pointer;
+  height: 180px;
+}
+.industry-name {
+  background-color: transparent;
+
+  border-radius: 20px;
+  padding: 20px;
+  height: max-content;
+}
+.industry-name:hover {
+  background-color: white;
+}
+.industry-name:hover p {
+  display: block;
+}
+.industry-name:hover {
+  box-shadow: 5px 5px 20px 5px rgb(218, 217, 217);
+}
+
+.industry-name p {
+  display: none;
+}
+.section-7 h1 {
+  font-family: "Baskerville Old Face" !important ;
+}
+.section-7 h1 {
+  font-size: 40px !important;
+  font-weight: 500 !important;
+}
+.futuredesc {
+  font-size: 15px;
+}
+
+.gradientborder {
+  position: relative;
+  padding: 20px;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  border-left: 1px solid black;
+  border: 10px solid transparent;
+  background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(
+        #f278c3,
+        #687aff,
+        #f79533,
+        #f37055,
+        #ef4e7b,
+        #a166ab,
+        #5073b8,
+        #1098ad,
+        #07b39b,
+        #6fba82
+      )
+      border-box;
+}
+form input:focus,
+select {
+  border: none;
+}
+select {
+  color: gray !important;
+}
+
+#individuals-form {
+  display: none !important;
+}
+#corporate:checked ~ #corporate-form {
+  display: block !important;
+}
+#indivisual:checked ~ #individuals-form {
+  display: block !important;
+}
+#indivisual:checked ~ #corporate-form {
+  display: none !important;
+}
+.bottom-of-page div {
+  border-right: 3px solid gray;
+}
+.heading1 {
+  color: #000;
+  font-family: "outfit";
+  font-size: 32px;
+  line-height: normal;
+}
+.paragraph1 {
+  color: #4b4747;
+  font-family: Light;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 25px;
+}
+#pills-tab .nav-item {
+  max-width: fit-content;
+}
+#pills-tab .nav-item button {
+  border-radius: 10px 10px 0 0 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .text-box {
+    position: relative;
+    height: 100%;
+    text-align: left;
+    width: 60%;
+    margin: auto 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+
+  .text-box h1,
+  .text-quality {
+    font-size: 22px;
+  }
+  .indutry-card {
+    width: 100% !important;
+  }
+}
